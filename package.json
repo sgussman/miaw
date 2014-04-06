@@ -1,0 +1,21 @@
+{
+  "name": "MIAW",
+  "version": "0.0.1",
+  "author": "SamGussman",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sgussman/miaw"
+  }
+  "private": true,
+
+  "dependencies": {
+    "express": "3.x",
+    "express3-handlebars": "*",
+    "mongodb": "*",
+    "mongoose": "*"
+  }
+  "engines": {
+  	"node": "0.10.x"
+  }
+}
