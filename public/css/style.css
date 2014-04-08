@@ -1,0 +1,52 @@
+.center {
+	text-align: center;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+.title {
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 900;
+	font-family: 'Lato', sans-serif;
+}
+
+.image {
+	width:100%;
+}
+.container img {
+	width:100%;
+	height:auto;
+}
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#artContainer {
+	background-color: #0eba9e;
+	width: 50%;
+}
+
+#artistContainer {
+	background-color: #ef4836;
+	width:50%;
+}
+
+#classContainer {
+	background-color: #f5c700;
+	width:50%;
+}
+
+#classTitle {
+	height:50%;
+}
