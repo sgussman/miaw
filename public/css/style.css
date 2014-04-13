@@ -39,16 +39,15 @@ p {
 	font-family: 'Lato', sans-serif;
 }
 
+.blue {
+	background-color: #1ab2e8;
+}
 .green {
 	background-color: #0eba9e;
 }
 
 .red {
 	background-color: #ef4836;
-}
-
-.blue {
-	background-color: #1ab2e8;
 }
 
 .yellow {
@@ -60,10 +59,17 @@ p {
 	height:100%;
 }
 
-.h_split {
-	width: 100%;
-	height: 50%;
+#gal_clas_box {
+	width: 67%;
+	height: 100%;
 }
+
+#twitter {
+	width: 33%;
+	height: 100%;
+}
+
+
 /*#art {
 	width: 50%;
 	height: 100%;
@@ -74,15 +80,6 @@ p {
 	height: 100%;
 }*/
 
-#gal_clas_box {
-	width: 60%;
-	height: 100%;
-}
-
-#frost_twit {
-	width: 40%;
-	height: 100%;
-}
 
 /*#about {
 	width: 50%;
