@@ -100,30 +100,34 @@ img {
      make sure you have an empty gif */
   background-image: url('empty.gif');
 }
-#gal_clas_box {
-	width: 70%;
-	height: 100%;
-}
 
-#twitter {
-	width: 30%;
-	height: 100%;
-}
-
-
-#art {
+.relative {
 	position: relative;
 }
 
 #about {
 	width: 43%;
 	height: 100%;
+	position: relative;
+}
+
+#gal_clas_box {
+	width: 70%;
+	height: 100%;
 }
 
 #gallery {
 	width: 57%;
 	height: 100%;
+	position: relative;
 }
+
+#twitter {
+	width: 30%;
+	height: 100%;
+	position: relative;
+}
+
 
 /***************************/
 
