@@ -4,6 +4,9 @@ html, body {
 	margin: 0px;
 }
 
+div {
+	padding: 0;
+}
 p {
 	text-align: center;
 	padding-top: 10px;
@@ -11,14 +14,21 @@ p {
 }
 .top {
 	width: 100%;
-	height: 70%;
-	/*background-color: #000;*/
+	height: 65%;
 }
 
 .bottom {
 	width: 100%;
-	height: 30%;
-	background-color: #f5c700;
+	height: 35%;
+	background-color: black;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }
 
 .title {
@@ -29,30 +39,66 @@ p {
 	font-family: 'Lato', sans-serif;
 }
 
-.inline{
-	display: inline;
-}
-
-.art {
-	width: 50%;
-	height: 100%;
+.green {
 	background-color: #0eba9e;
 }
 
-.artist {
-	width: 50%;
-	height: 100%;
+.red {
 	background-color: #ef4836;
 }
 
-.left {
-	float: left;
+.blue {
+	background-color: #1ab2e8;
 }
 
-.right {
-	float: right;
+.yellow {
+	background-color: #f5c700;
 }
+
+.v_split {
+	width:50%;
+	height:100%;
+}
+
+.h_split {
+	width: 100%;
+	height: 50%;
+}
+/*#art {
+	width: 50%;
+	height: 100%;
+}
+
+#artist {
+	width: 50%;
+	height: 100%;
+}*/
+
+#gal_clas_box {
+	width: 60%;
+	height: 100%;
+}
+
+#frost_twit {
+	width: 40%;
+	height: 100%;
+}
+
+/*#about {
+	width: 50%;
+	height: 100%;
+}
+
+#gallery {
+	width: 50%;
+	height: 100%;
+}*/
+
+/***************************/
+
 /*overflow: hidden;*/
+
+/***************************/
 /*.center {
 	text-align: center;
 }
