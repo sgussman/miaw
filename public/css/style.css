@@ -30,6 +30,14 @@ p {
 	float: right;
 }
 
+.center {
+	text-align: center;
+}
+.signature {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Lato', sans-serif;
+}
 .title {
 	color: #fff;
 	text-transform: uppercase;
