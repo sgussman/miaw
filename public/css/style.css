@@ -19,8 +19,7 @@ p {
 
 .bottom {
 	width: 100%;
-	height: 5%;
-	background-color: black;
+	height: 50%;
 }
 
 .left {
@@ -61,12 +60,12 @@ p {
 }
 
 #gal_clas_box {
-	width: 68%;
+	width: 70%;
 	height: 100%;
 }
 
 #twitter {
-	width: 33%;
+	width: 30%;
 	height: 100%;
 }
 
@@ -82,80 +81,18 @@ p {
 }*/
 
 
-/*#about {
-	width: 50%;
+#about {
+	width: 43%;
 	height: 100%;
 }
 
 #gallery {
-	width: 50%;
+	width: 57%;
 	height: 100%;
-}*/
+}
 
 /***************************/
 
 /*overflow: hidden;*/
 
 /***************************/
-/*.center {
-	text-align: center;
-}
-
-.left {
-	float:left;
-}
-
-.top {
-	vertical-align: top;
-}
-
-.bottom {
-	vertical-align: bottom;
-}
-.right {
-	float:right;
-}
-
-.title {
-	color: #fff;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-transform: uppercase;
-	font-size: 40px;
-	font-weight: 900;
-	font-family: 'Lato', sans-serif;
-}
-
-.image {
-	width:100%;
-	padding-bottom: 0px;
-}
-.container img {
-	width:100%;
-	height:auto;
-}
-.container {
-	padding-left: 0px;
-	padding-right: 0px;
-	margin:0px;
-}
-
-#artContainer {
-	background-color: #0eba9e;
-	width: 50%;
-}
-
-#artistContainer {
-	background-color: #ef4836;
-	width:50%;
-}
-
-#classContainer {
-	background-color: #f5c700;
-	width:50%;
-	vertical-align: bottom
-}
-
-#classTitle {
-	height:50%;
-}*/
