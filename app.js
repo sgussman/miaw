@@ -10,7 +10,11 @@ var mongoose = require('mongoose');
 
 //Required Routing Files
 var launch = require('./routes/launch');
-var art = require('./routes/art')
+var art = require('./routes/art');
+var artist = require('./routes/artist');
+var class_page = require('./routes/class');
+var gallery = require('./routes/gallery');
+var twitter = require('./routes/twitter');
 
 //Placeholder Mongo database requirement
 
@@ -44,6 +48,10 @@ if ('development' == app.get('env')) {
 // Routes
 app.get('/', launch.view);
 app.get('/art', art.view);
+app.get('/artist', artist.view);
+app.get('/class', class_page.view);
+app.get('/gallery', gallery.view);
+app.get('/twitter', twitter.view);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

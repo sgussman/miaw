@@ -111,6 +111,16 @@ img {
 	font-size: x-large;
 }
 
+img .profile_pic {
+	width: 200px;
+	height: auto;
+	margin: 5px;
+}
+
+.black {
+	color:black;
+}
+
 #about {
 	width: 43%;
 	height: 100%;
@@ -132,6 +142,12 @@ img {
 	width: 30%;
 	height: 100%;
 	position: relative;
+}
+
+#panelDiv {
+	padding: 10px;
+	border: 2px solid black;
+	background-color: gray;
 }
 
 
