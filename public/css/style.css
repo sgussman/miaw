@@ -160,44 +160,42 @@ img .profile_pic {
 	margin-bottom: 0px;
 }
 
-#container1 {
+#container_t1 {
 	float:left;
 	width:100%;
-	background-color:red;
 	position: relative;
 	right:30%;
 }
 
-#container2 {
+#container_t2 {
 	float:left;
 	width:100%;
-	background-color: yellow;
 	position: relative;
 	right:40%;
 }
-#container3 {
+#container_t3 {
 	float:left;
 	width:100%;
-	background-color: green;
 	overflow: hidden;
 	position: relative;
+	background-color: #f5c700;
 }
 
-#col1 {
+#col_t1 {
     float:left;
     width: 30%;
     position: relative;
     left: 70%;
     background-color: #1ab2e8;
 }
-#col2 {
+#col_t2 {
     float:left;
     width:40%;
     position: relative;
     left: 70%;
     background-color: #f5c700;
 }
-#col3 {
+#col_t3 {
     float:left;
     width:30%;
     position: relative;
@@ -208,7 +206,6 @@ img .profile_pic {
 #container_h1 {
 	float:left;
 	width:100%;
-	background-color:red;
 	position: relative;
 	right:50%;
 }
@@ -216,7 +213,6 @@ img .profile_pic {
 #container_h2 {
 	float:left;
 	width:100%;
-	background-color: green;
 	overflow: hidden;
 	position: relative;
 }
