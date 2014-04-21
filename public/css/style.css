@@ -199,7 +199,7 @@ img .profile_pic {
 }
 
 #art_info_panel .title{
-	font-size: 18px;
+	font-size: auto;
 	/*margin-bottom: 0px;*/
 }
 /*********** Navbar **************/
