@@ -198,9 +198,12 @@ img .profile_pic {
 	float: right;
 }
 
-#art_info_panel .title{
-	font-size: auto;
-	/*margin-bottom: 0px;*/
+#art_name {
+	font-size: 18px;
+}
+
+#artist_name {
+	font-size: 15px;
 }
 /*********** Navbar **************/
 
