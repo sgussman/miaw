@@ -23,6 +23,8 @@ img {
 	margin-bottom: 3px;
 }
 
+/*********** Universals *********/
+
 .top {
 	width: 100%;
 	height: 65%;
@@ -33,30 +35,11 @@ img {
 	height: 25%;
 }
 
-.left {
-	float: left;
-}
-
 .right {
 	float: right;
 }
 
-.center {
-	text-align: center;
-}
 
-.inline {
-	display: inline;
-}
-
-.signature {
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	font-family: 'Lato', sans-serif;
-	font-size: 10px;
-}
 .title {
 	color: #fff;
 	text-transform: uppercase;
@@ -65,25 +48,6 @@ img {
 	font-family: 'Lato', sans-serif;
 }
 
-.blue {
-	background-color: #1ab2e8;
-}
-.green {
-	background-color: #0eba9e;
-}
-
-.red {
-	background-color: #ef4836;
-}
-
-.yellow {
-	background-color: #f5c700;
-}
-
-.v_split {
-	width:50%;
-	height:100%;
-}
 
 .invisible_mask {
   position:absolute; 
@@ -100,65 +64,9 @@ img {
   background-image: url('./images/empty.gif');
 }
 
-.relative {
-	position: relative;
-}
+/************ Launch **************/
 
-.xltext .title{
-	font-size: x-large;
-}
-
-img .profile_pic {
-	width: 200px;
-	height: auto;
-	margin: 5px;
-}
-
-.subtitle {
-	font-size: 30px;
-	font-weight: 900;
-	font-family: 'Lato', sans-serif;
-	text-transform: uppercase;
-	color: #fff;
-}
-.black {
-	color:black;
-}
-
-#about {
-	width: 43%;
-	height: 100%;
-	position: relative;
-}
-
-#gal_clas_box {
-	width: 70%;
-	height: 100%;
-}
-
-#gallery {
-	width: 57%;
-	height: inherit;
-	position: relative;
-}
-
-#twitter {
-	width: 30%;
-	height: 100%;
-	position: relative;
-}
-
-.infobox {
-	padding: 10px;
-	border: 2px solid black;
-	background-color: gray;
-	width:35%;
-}
-
-.info{
-	font-size: 25px;
-	margin-bottom: 0px;
-}
+/*-- Third Column --*/
 
 #container_t1 {
 	float:left;
@@ -203,6 +111,7 @@ img .profile_pic {
     background-color: #0eba9e;
 }
 
+/*-- Half Columns --*/
 #container_h1 {
 	float:left;
 	width:100%;
@@ -233,3 +142,44 @@ img .profile_pic {
     background-color: #ef4836;
 }
 
+/*-- Bottom Signature --*/
+.signature {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+	display: inline;
+}
+/*********** Art/Artist ***********/
+
+img .profile_pic {
+	width: 200px;
+	height: auto;
+	margin: 5px;
+}
+
+.subtitle {
+	font-size: 30px;
+	font-weight: 900;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.black {
+	color:black;
+}
+
+.infobox {
+	padding: 10px;
+	border: 2px solid black;
+	background-color: gray;
+	width:35%;
+}
+
+.info{
+	font-size: 25px;
+	margin-bottom: 0px;
+}
