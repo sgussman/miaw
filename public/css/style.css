@@ -81,6 +81,7 @@ img {
 	position: relative;
 	right:40%;
 }
+
 #container_t3 {
 	float:left;
 	width:100%;
@@ -96,6 +97,7 @@ img {
     left: 70%;
     background-color: #1ab2e8;
 }
+
 #col_t2 {
     float:left;
     width:40%;
@@ -103,12 +105,17 @@ img {
     left: 70%;
     background-color: #f5c700;
 }
+
 #col_t3 {
     float:left;
     width:30%;
     position: relative;
     left: 70%;
     background-color: #0eba9e;
+}
+
+.large-text .title {
+	font-size: x-large;
 }
 
 /*-- Half Columns --*/
