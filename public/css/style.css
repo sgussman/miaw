@@ -200,10 +200,17 @@ img .profile_pic {
 
 #art_name {
 	font-size: 18px;
+	text-transform: none;
 }
 
 #artist_name {
 	font-size: 15px;
+	text-transform: none;
+}
+
+#artist_name_big {
+	font-size: 20px;
+	text-transform: none;
 }
 /*********** Navbar **************/
 
