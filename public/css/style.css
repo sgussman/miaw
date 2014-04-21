@@ -190,3 +190,69 @@ img .profile_pic {
 	font-size: 25px;
 	margin-bottom: 0px;
 }
+
+/*********** Navbar **************/
+
+#container_n1 {
+	float:left;
+	width:100%;
+	position: relative;
+	right:25%;
+}
+
+#container_n2 {
+	float:left;
+	width:100%;
+	position: relative;
+	right:25%;
+}
+
+#container_n3 {
+	float:left;
+	width:100%;
+	position: relative;
+	right:25%;
+}
+#container_n4 {
+	float:left;
+	width:100%;
+	overflow: hidden;
+	position: relative;
+	background-color: #ef4836;
+}
+
+#col_n1 {
+    float:left;
+    width: 25%;
+    position: relative;
+    left: 75%;
+    background-color: #1ab2e8;
+}
+
+#col_n2 {
+    float:left;
+    width:25%;
+    position: relative;
+    left: 75%;
+    background-color: #f5c700;
+}
+
+#col_n3 {
+    float:left;
+    width:25%;
+    position: relative;
+    left: 75%;
+	background-color: #0eba9e;
+}
+
+#col_n4 {
+    float:left;
+    width:25%;
+    position: relative;
+    left: 75%;
+    background-color: #ef4836;
+}
+
+.small-text .title {
+	font-size: x-small;
+}
