@@ -16,12 +16,11 @@ var class_page = require('./routes/class');
 var gallery = require('./routes/gallery');
 var twitter = require('./routes/twitter');
 
-//Placeholder Mongo database requirement
-
-//var local_database_name = 'artDB';
-// var local_database_uri  = 'mongodb://localhost/' + local_database_name;
-// var database_uri = process.env.MONGOLAB_URI || local_database_uri;
-// mongoose.connect(database_uri);
+//Mongo database requirement
+var local_database_name = 'artDB';
+var local_database_uri  = 'mongodb://localhost/' + local_database_name;
+var database_uri = process.env.MONGOLAB_URI || local_database_uri;
+mongoose.connect(database_uri);
 
 var app = express();
 
@@ -46,9 +45,9 @@ if ('development' == app.get('env')) {
 }
 
 // Routes
-app.get('/', launch.view);
-app.get('/art', art.view);
-app.get('/artist', artist.view);
+app.get('/:title', launch.view);
+app.get('/:title/art', art.view);
+app.get('/:title/artist', artist.view);
 app.get('/class', class_page.view);
 app.get('/gallery', gallery.view);
 app.get('/twitter', twitter.view);
