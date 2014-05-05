@@ -48,9 +48,9 @@ if ('development' == app.get('env')) {
 app.get('/:title', launch.view);
 app.get('/:title/art', art.view);
 app.get('/:title/artist', artist.view);
-app.get('/class', class_page.view);
-app.get('/gallery', gallery.view);
-app.get('/twitter', twitter.view);
+app.get('/:title/class', class_page.view);
+app.get('/:title/gallery', gallery.view);
+app.get('/:title/twitter', twitter.view);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
