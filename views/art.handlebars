@@ -3,34 +3,32 @@
 	<title>Art</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height">
-	<link href="css/bootstrap.css" rel="stylesheet"></link>
-	<link href="css/bootstrap-theme.css" rel="stylesheet"></link>
-	<link href="css/style.css" rel="stylesheet"></link>
+	<link href="../css/bootstrap.css" rel="stylesheet"></link>
+	<link href="../css/bootstrap-theme.css" rel="stylesheet"></link>
+	<link href="../css/style.css" rel="stylesheet"></link>
 </head>
 
 <body>
 	<div id="art_info_panel">
-		<img src="images/mumbatu_02.jpg" alt="Mumbatu" class="profile_pic">
-		<p class="title" id="art_name">Mumbatu</p>
-		<div>
+		<img src="../{{art_pic}}" alt="{{title}}" class="profile_pic">
+		<p class="title" id="art_name">{{title}}</p>
+		<div id="artist_link_div">
 			<p class="title" id="artist_name">By: Karen Cusolito</p>
-			<a href="/artist"><span class="invisible_mask"></span></a>
+			<a href="/{{title}}/artist"><span class="invisible_mask"></span></a>
 		</div>
 	</div>
 <div class="textDiv">
 	<p class="subtitle black">About the Art</p>
-	<p>Karen studied at Rhode Island School of Design and Massachusetts College of Art. She worked on several public art installations in and around the Boston area before moving to San Francisco in 1996. </p>
-	<p >Her art has taken many forms, from painting and mixed media to the large-scale steel sculptures she’s presently developing.</p>
-	<p>She finds drawing to be the easiest and most concise form of communication and the human form a rich arena in which to explore and express emotion, intention, and challenge. Much of her work focuses on humanity and the environment and the delicate balance between the two.</p>
-	<p>Karen is about to embark on a new series that studies the female form throughout history.</p>
-	<p>Since 2009, she has been running American Steel Studios in Oakland, CA, which provides studio and gallery space to over 100 artists and small businesses.</p>
+	{{#each about_art}}
+		<p> {{this}} </p>
+	{{/each}}
 </div>
 
 
 {{>navBar_art}}
 
-<script src="js/jquery-1.11.0.js"></script>
-<script src="js/bootstrap.js"></script>
+<script src="../js/jquery-1.11.0.js"></script>
+<script src="../js/bootstrap.js"></script>
 
 </body>
 </html>

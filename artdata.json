@@ -10,15 +10,15 @@
 			{ "text" : "Since 2009, she has been running American Steel Studios in Oakland, CA, which provides studio and gallery space to over 100 artists and small businesses. "}
 		],
 		"about_art" : [
-			{ "text" : "Mumbatu is deep in a posture of introspection. His height is exaggerated, emphasizing his strength and lean musculature. Yet despite his imposing size, he is crouching down, with deep regard for the smaller nuances of life; the delicate balance between nature and humanity." },
-			{ "text" : "Mumbatu was created in 2007 and was first exhibited at Burning Man. He has since traveled to Maker Faire, 2008, Electric Daisy Carnival 2008 and 2010." },
-			{ "text" : "This sculpture is part of a private collection." }
+			"Mumbatu is deep in a posture of introspection. His height is exaggerated, emphasizing his strength and lean musculature. Yet despite his imposing size, he is crouching down, with deep regard for the smaller nuances of life; the delicate balance between nature and humanity.",
+			"Mumbatu was created in 2007 and was first exhibited at Burning Man. He has since traveled to Maker Faire, 2008, Electric Daisy Carnival 2008 and 2010.",
+			"This sculpture is part of a private collection."
 		],
 		"photos": [
-		{ "text" : "images/mumbatu/art/mumbatu_01.jpg"},
-		{ "text" : "images/mumbatu/art/mumbatu_02.jpg"},
-		{ "text" : "images/mumbatu/art/mumbatu_03.jpg"},
-		{ "text" : "images/mumbatu/art/mumbatu_04.jpg"}
+			"images/mumbatu/art/mumbatu_01.jpg",
+			"images/mumbatu/art/mumbatu_02.jpg",
+			"images/mumbatu/art/mumbatu_03.jpg",
+			"images/mumbatu/art/mumbatu_04.jpg"
 		],
 		"artist_pic" : "images/mumbatu/artist_pic.jpg",
 		"art_pic" : "images/mumbatu/art_pic.jpg"

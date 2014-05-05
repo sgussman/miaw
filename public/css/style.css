@@ -277,3 +277,7 @@ img .profile_pic {
 .small-text .title {
 	font-size: x-small;
 }
+
+#artist_link_div {
+	position: relative;
+}
