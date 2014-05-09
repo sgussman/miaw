@@ -290,11 +290,11 @@ img .profile_pic {
 	
 	width: 100%;
 	position:absolute;
-	bottom:100;
+	bottom:125;
 	left:0;
 }
 
 .wrapper {
-	min-height:125%;
+	min-height:100%;
 	position:relative;
 }
