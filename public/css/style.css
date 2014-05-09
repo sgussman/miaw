@@ -281,3 +281,20 @@ img .profile_pic {
 .artist_link_div {
 	position: relative;
 }
+.navBarDiv {
+	position: fixed;
+	width: 100%;
+}
+
+.navBarWrapper {
+	
+	width: 100%;
+	position:absolute;
+	bottom:25;
+	left:0;
+}
+
+.wrapper {
+	min-height:100%;
+	position:relative;
+}
