@@ -11,8 +11,7 @@
 
 <body>
 <div class="wrapper">
-	<p> Placeholder for the Gallery page.</p>
-
+	<div class="jcarousel-wrapper">
 	<div class="jcarousel">
 	    <ul>
 	       {{#each photos}}
@@ -20,14 +19,17 @@
 			{{/each}}
 	    </ul>
 	</div>
-
-
+	<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+    <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+    <p class="jcarousel-pagination"></p>
+</div>
 {{>navBar}}
 </div>
 
 <script src="../js/jquery-1.11.0.js"></script>
 <script src="../js/bootstrap.js"></script>
 <!-- <script type="text/javascript" src="../js/jquery.js"></script> -->
+<script type="text/javascript" src="../js/jcarousel.responsive.js"></script>
 <script type="text/javascript" src="../js/jquery.jcarousel.min.js"></script>
 
 </body>
