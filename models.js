@@ -8,7 +8,8 @@ var ArtSchema = new Mongoose.Schema({
 	"about_art": [String],
 	"photos": [String],
 	"artist_pic": String,
-	"art_pic": String
+	"art_pic": String,
+	"twitter_handle": String
 });
 
 exports.Art = Mongoose.model('Art', ArtSchema);
