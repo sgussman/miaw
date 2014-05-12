@@ -109,7 +109,8 @@ img {
 }
 
 #gallery_launch_title {
-	font-size: 35px;
+	font-size: 32px;
+	vertical-align: auto;
 }
 /************ END Launch **************/
 /*********** Art/Artist ***********/
