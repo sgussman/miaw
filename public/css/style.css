@@ -24,7 +24,7 @@ img {
 	margin-bottom: 3px;
 }
 
-/*********** Universals *********/
+/*********** Globals *********/
 
 .top {
 	width: 100%;
@@ -67,12 +67,10 @@ img {
 
 /************ Launch **************/
 
-
 .large-text .title {
 	font-size: x-large;
 }
 
-/*-- Launch Screen --*/
 .col_1 {
 	position: absolute;
 	left: 0;
@@ -109,22 +107,13 @@ img {
 #class_launch {
 	background-color: #f5c700;
 }
-/*-- Bottom Signature --*/
-.signature {
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	font-family: 'Lato', sans-serif;
-	font-size: 10px;
-	display: inline;
-}
+/************ END Launch **************/
 /*********** Art/Artist ***********/
 
-img .profile_pic {
+.profile_pic {
 	width: 200px;
 	height: auto;
-	margin: 5px;
+	margin: auto;
 }
 
 .subtitle {
@@ -152,10 +141,11 @@ img .profile_pic {
 
 #art_info_panel{
 	padding: 10px;
-	border: 2px solid black;
-	background-color: gray;
+	border: 5px solid white;
+	background-color: #0eba9e;
 	width: 35%;
 	float: right;
+	max-height: 90%;
 }
 
 #art_name {
@@ -172,7 +162,18 @@ img .profile_pic {
 	font-size: 20px;
 	text-transform: none;
 }
+
+/*for the clickable link of the artist page.*/
+.artist_link_div {
+	position: relative;
+}
+
+#art_title {
+	background-color: #0eba9e;
+}
+/*********** END Art/Artist ***********/
 /*********** Navbar **************/
+
 .nav_col_1 {
 	position: fixed;
 	top: 90%;
@@ -212,16 +213,8 @@ img .profile_pic {
 .small-text .title {
 	font-size: x-small;
 }
-
-.artist_link_div {
-	position: relative;
-}
-
-
-.wrapper {
-	min-height:100%;
-	position:relative;
-}
+/*********** END Navbar **************/
+/*********** Twitter ***********/
 
 #twitter_header {
 	font-family: 'Lato', sans-serif;
@@ -233,9 +226,23 @@ img .profile_pic {
 #twitter_button_wrapper {
 	text-align: center;
 }
+/*********** END Twitter ***********/
+/*********** Signature ***********/
+.signature {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+	display: inline;
+}
+
 
 #signature_div {
 	position: absolute;
 	bottom: 0;
+
+/*********** END Signature ***********/
 	width: 100%;
 }
