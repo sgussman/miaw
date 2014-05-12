@@ -102,11 +102,14 @@ img {
 
 #gallery_launch {
 	background-color: #1ab2e8;
-	font-size: 35px;
 }
 
 #class_launch {
 	background-color: #f5c700;
+}
+
+#gallery_launch_title {
+	font-size: 35px;
 }
 /************ END Launch **************/
 /*********** Art/Artist ***********/
