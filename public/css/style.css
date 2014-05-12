@@ -251,7 +251,10 @@ img {
 #signature_div {
 	position: absolute;
 	bottom: 0;
-
-/*********** END Signature ***********/
 	width: 100%;
+}
+/*********** END Signature ***********/
+/*********** Gallery Page ***********/
+#gallery_title {
+	background-color: #1ab2e8;
 }
