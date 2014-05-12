@@ -12,7 +12,7 @@ var mongoose = require('mongoose');
 var launch = require('./routes/launch');
 var art = require('./routes/art');
 var artist = require('./routes/artist');
-var class_page = require('./routes/class');
+var class_page = require('./routes/class_page');
 var gallery = require('./routes/gallery');
 var twitter = require('./routes/twitter');
 
@@ -45,7 +45,7 @@ if ('development' == app.get('env')) {
 }
 
 // Routes
-app.get('/:title', launch.view);
+app.get('/:title/', launch.view);
 app.get('/:title/art', art.view);
 app.get('/:title/artist', artist.view);
 app.get('/:title/class', class_page.view);
