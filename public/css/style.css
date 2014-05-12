@@ -123,10 +123,6 @@ img {
 	color: #fff;
 }
 
-.black {
-	color:black;
-}
-
 .infobox {
 	padding: 10px;
 	border: 2px solid black;
@@ -139,14 +135,22 @@ img {
 /*	margin-bottom: 0px;*/
 }
 
-#art_info_panel{
+.info_panel{
 	padding: 10px;
 	border: 5px solid white;
 	border-top-width: 0px;
-	background-color: #0eba9e;
+	border-right-width: 0px;
 	width: 35%;
 	float: right;
 	max-height: 90%;
+}
+
+#art_info_panel {
+	background-color: #0eba9e;
+}
+
+#artist_info_panel {
+	background-color: #ef4836;
 }
 
 #art_name {
@@ -171,6 +175,10 @@ img {
 
 #art_title {
 	background-color: #0eba9e;
+}
+
+#artist_title {
+	background-color: #ef4836;
 }
 /*********** END Art/Artist ***********/
 /*********** Navbar **************/

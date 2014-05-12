@@ -9,7 +9,7 @@
 </head>
 
 <body>
-	<div id="art_info_panel">
+	<div class="info_panel" id="artist_info_panel">
 		<img src="../{{artist_pic}}" alt="Mumbatu" class="profile_pic">
 		<div class="artist_link_div">
 			<p class="title" id="artist_name_big">By: Karen Cusolito</p>
@@ -17,7 +17,7 @@
 		</div>
 	</div>
 	<div class="textDiv">
-		<p class="subtitle black" id="artist_title">About the Artist</p>
+		<p class="subtitle" id="artist_title">About the Artist</p>
 		{{#each bio}}
 			<p> {{this}} </p>
 		{{/each}}
