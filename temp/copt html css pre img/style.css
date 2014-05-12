@@ -1,0 +1,109 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+}
+
+div {
+	padding: 0;
+}
+p {
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 5px;
+}
+.top {
+	width: 100%;
+	height: 65%;
+}
+
+.bottom {
+	width: 100%;
+	height: 30%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
+.signature {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+}
+.title {
+	color: #fff;
+	text-transform: uppercase;
+	/*font-size: 40px;*/
+	font-size: x-large;
+	font-weight: 900;
+	font-family: 'Lato', sans-serif;
+}
+
+.blue {
+	background-color: #1ab2e8;
+}
+.green {
+	background-color: #0eba9e;
+}
+
+.red {
+	background-color: #ef4836;
+}
+
+.yellow {
+	background-color: #f5c700;
+}
+
+.v_split {
+	width:50%;
+	height:100%;
+}
+
+#gal_clas_box {
+	width: 70%;
+	height: 100%;
+}
+
+#twitter {
+	width: 30%;
+	height: 100%;
+}
+
+
+/*#art {
+	width: 50%;
+	height: 100%;
+}
+
+#artist {
+	width: 50%;
+	height: 100%;
+}*/
+
+
+#about {
+	width: 43%;
+	height: 100%;
+}
+
+#gallery {
+	width: 57%;
+	height: 100%;
+}
+
+/***************************/
+
+/*overflow: hidden;*/
+
+/***************************/

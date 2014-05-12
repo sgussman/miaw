@@ -1,0 +1,1 @@
+.img files need to be resized to 310 x 450 pixels for the home screen.

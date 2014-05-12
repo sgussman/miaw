@@ -1,0 +1,44 @@
+#container1 {
+	float:left;
+	width:100%;
+	background-color:red;
+	position: relative;
+	right:30%;
+}
+
+#container2 {
+	float:left;
+	width:100%;
+	background-color: yellow;
+	position: relative;
+	right:40%;
+}
+#container3 {
+	float:left;
+	width:100%;
+	background-color: green;
+	overflow: hidden;
+	position: relative;
+}
+
+#col1 {
+    float:left;
+    width:30%;
+    position: relative;
+    left: 70%;
+    background-color: #1ab2e8;
+}
+#col2 {
+    float:left;
+    width:40%;
+    position: relative;
+    left: 70%;
+    background-color: #f5c700;
+}
+#col3 {
+    float:left;
+    width:30%;
+    position: relative;
+    left: 70%;
+    background-color: #0eba9e;
+}
