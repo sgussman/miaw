@@ -1,6 +1,7 @@
 html, body {
 	width: 100%;
 	margin: 0px;
+	height: 100%;
 }
 
 div {
@@ -32,7 +33,7 @@ img {
 
 .bottom {
 	width: 100%;
-	height: 25%;
+	height: 50%;
 }
 
 .right {
@@ -119,36 +120,51 @@ img {
 }
 
 /*-- Half Columns --*/
-#container_h1 {
+.container_h1 {
 	float:left;
 	width:100%;
 	position: relative;
 	right:50%;
 }
 
-#container_h2 {
+.container_h2 {
 	float:left;
 	width:100%;
 	overflow: hidden;
 	position: relative;
+	min-height: 100%;
 }
 
-#col_h1 {
+.col_h1 {
     float:left;
     width: 50%;
     position: relative;
     left: 50%;
-    background-color: #0eba9e;
 }
 
-#col_h2 {
+.col_h2 {
     float:left;
     width:50%;
     position: relative;
     left: 50%;
-    background-color: #ef4836;
+    min-height: 100%
 }
 
+#art_launch {
+	background-color: #0eba9e;
+}
+
+#artist_launch {
+	background-color: #ef4836;
+}
+
+#gallery_launch {
+	background-color: #1ab2e8;
+}
+
+#class_launch {
+	background-color: #f5c700;
+}
 /*-- Bottom Signature --*/
 .signature {
 	padding-left: 10px;

@@ -13,16 +13,14 @@
 <body>
 <!-- 	Upper half of the window -->
 	<div class="top">
-		<div id="container_h2">
-			<div id="container_h1">
-				<div id="col_h1">
-					<p class="title">Art</p>
-					<img src="{{art_pic}}" alt="{{title}}">
+		<div class="container_h2">
+			<div class="container_h1">
+				<div class="col_h1" id="art_launch">
+					<p class="title">About The Art</p>
 					<a href="/{{title}}/art"><span class="invisible_mask"></span></a>
 				</div>
-				<div id="col_h2">
-					<p class="title">Artist</p>
-					<img src="{{artist_pic}}" alt="{{artist}}">
+				<div class="col_h2" id="artist_launch">
+					<p class="title">About Thertist</p>
 					<a href="/{{title}}/artist"><span class="invisible_mask"></span></a>
 				</div>
 			</div>
@@ -30,21 +28,16 @@
 	</div>
 	<!-- Bottom half of the window -->
 	<div class="bottom">
-		<div id="container_t3">
-			<div id="container_t2">
-				<div id="container_t1">
-					<div id="col_t1" class="large-text">
-						<p class="title">Tweet The Artist</p>
-						<a href="/{{title}}/twitter"><span class="invisible_mask"></span></a>
-					</div>
-					<!-- I'm going to have a problem here where the button doesn't extend all the way down the column. The bottom will not be completely clickable. -->
-					<div id="col_t2" class="large-text">
-						<p class="title">View The Gallery </p>
-						<a href="/{{title}}/gallery"><span class="invisible_mask"></span></a>
-					</div>
-					<div id="col_t3" class="large-text">
+		<div class="top">
+			<div class="container_h2">
+				<div class="container_h1">
+					<div class="col_h1" id="class_launch">
 						<p class="title">About The Class</p>
-						<a href="/{{title}}/class"><span class="invisible_mask"></span></a>			
+						<a href="/{{title}}/class"><span class="invisible_mask"></span></a>
+					</div>
+					<div class="col_h2" id="gallery_launch">
+						<p class="title">Photo Gallery</p>
+						<a href="/{{title}}/gallery"><span class="invisible_mask"></span></a>
 					</div>
 				</div>
 			</div>
