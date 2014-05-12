@@ -1,4 +1,15 @@
+var models = require('../models.js');
+
 exports.view = function(req, res){
-	console.log('Opening class Page.');
-	res.render('class');
+	var title = req.params.title;
+	console.log('Opening Class Page.');
+	models.Art.find({"title" : title})
+	.exec(afterQueryRender)
+
+	function afterQueryRender(err, results) {
+		if(err) console.log(err);
+		var art = results[0];
+		console.log(art);
+		res.render("class", art);
+	}
 }
