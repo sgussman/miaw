@@ -45,7 +45,7 @@ if ('development' == app.get('env')) {
 }
 
 // Routes
-app.get('/:title/', launch.view);
+app.get('/:title', launch.view);
 app.get('/:title/art', art.view);
 app.get('/:title/artist', artist.view);
 app.get('/:title/class', class_page.view);
