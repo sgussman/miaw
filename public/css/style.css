@@ -102,6 +102,7 @@ img {
 
 #gallery_launch {
 	background-color: #1ab2e8;
+	font-size: 35px;
 }
 
 #class_launch {
@@ -217,7 +218,6 @@ img {
 	left: 75%;
 	right: 0;
 	background-color: #ef4836;
-	font-size: 35px;
 }
 
 .small-text .title {
