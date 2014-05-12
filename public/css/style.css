@@ -113,10 +113,7 @@ img {
 .profile_pic {
 	width: 200px;
 	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-top: 0;
+	margin: auto;
 }
 
 .subtitle {
@@ -145,6 +142,7 @@ img {
 #art_info_panel{
 	padding: 10px;
 	border: 5px solid white;
+	border-top-width: 0px;
 	background-color: #0eba9e;
 	width: 35%;
 	float: right;
