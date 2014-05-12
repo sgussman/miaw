@@ -67,53 +67,6 @@ img {
 
 /************ Launch **************/
 
-/*-- Third Column --*/
-
-#container_t1 {
-	float:left;
-	width:100%;
-	position: relative;
-	right:30%;
-}
-
-#container_t2 {
-	float:left;
-	width:100%;
-	position: relative;
-	right:40%;
-}
-
-#container_t3 {
-	float:left;
-	width:100%;
-	overflow: hidden;
-	position: relative;
-	background-color: #f5c700;
-}
-
-#col_t1 {
-    float:left;
-    width: 30%;
-    position: relative;
-    left: 70%;
-    background-color: #1ab2e8;
-}
-
-#col_t2 {
-    float:left;
-    width:40%;
-    position: relative;
-    left: 70%;
-    background-color: #f5c700;
-}
-
-#col_t3 {
-    float:left;
-    width:30%;
-    position: relative;
-    left: 70%;
-    background-color: #0eba9e;
-}
 
 .large-text .title {
 	font-size: x-large;
