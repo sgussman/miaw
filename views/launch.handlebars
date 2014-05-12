@@ -12,42 +12,28 @@
 
 <body>
 <!-- 	Upper half of the window -->
-	<div class="top">
-		<div class="container_h2">
-			<div class="container_h1">
-				<div class="col_h1" id="art_launch">
-					<p class="title">About The Art</p>
-					<a href="/{{title}}/art"><span class="invisible_mask"></span></a>
-				</div>
-				<div class="col_h2" id="artist_launch">
-					<p class="title">About Thertist</p>
-					<a href="/{{title}}/artist"><span class="invisible_mask"></span></a>
-				</div>
-			</div>
-		</div>
+	<div class="col_1 row_1" id="art_launch">
+		<p class="title">About The Art</p>
+		<a href="/{{title}}/art"><span class="invisible_mask"></span></a>
 	</div>
-	<!-- Bottom half of the window -->
-	<div class="bottom">
-		<div class="top">
-			<div class="container_h2">
-				<div class="container_h1">
-					<div class="col_h1" id="class_launch">
-						<p class="title">About The Class</p>
-						<a href="/{{title}}/class"><span class="invisible_mask"></span></a>
-					</div>
-					<div class="col_h2" id="gallery_launch">
-						<p class="title">Photo Gallery</p>
-						<a href="/{{title}}/gallery"><span class="invisible_mask"></span></a>
-					</div>
-				</div>
-			</div>
-		</div>
+	<div class="col_2 row_1" id="artist_launch">
+		<p class="title">About The Artist</p>
+		<a href="/{{title}}/artist"><span class="invisible_mask"></span></a>
 	</div>
-
-	<div>
+<!-- Bottom half of the window -->
+	<div class="col_1 row_2" id="class_launch">
+		<p class="title">About The Class</p>
+		<a href="/{{title}}/class"><span class="invisible_mask"></span></a>
+	</div>
+	<div class="col_2 row_2" id="gallery_launch">
+		<p class="title">Photo Gallery</p>
+		<a href="/{{title}}/gallery"><span class="invisible_mask"></span></a>
+	</div>
+<!-- 	<div>
 		<p class="signature">sgussman@stanford.edu</p>
 		<p class="signature right">All Rights Reserved</p>
-	</div>
+	</div> -->
+	{{>signature}}
 
 <script src="js/jquery-1.11.0.js"></script>
 <script src="js/bootstrap.js"></script>

@@ -119,37 +119,28 @@ img {
 	font-size: x-large;
 }
 
-/*-- Half Columns --*/
-.container_h1 {
-	float:left;
-	width:100%;
-	position: relative;
-	right:50%;
+/*-- Launch Screen --*/
+.col_1 {
+	position: absolute;
+	left: 0;
+	right: 50%;
 }
 
-.container_h2 {
-	float:left;
-	width:100%;
-	overflow: hidden;
-	position: relative;
-	min-height: 100%;
+.col_2 {
+	position: absolute;
+	left: 50%;
+	right: 0;
 }
 
-.col_h1 {
-    float:left;
-    width: 50%;
-    position: relative;
-    left: 50%;
+.row_1 {
+	top: 0;
+	bottom: 50%;
 }
 
-.col_h2 {
-    float:left;
-    width:50%;
-    position: relative;
-    left: 50%;
-    min-height: 100%
+.row_2 {
+	top: 50%;
+	bottom: 5%;
 }
-
 #art_launch {
 	background-color: #0eba9e;
 }
@@ -324,4 +315,10 @@ img .profile_pic {
 
 #twitter_button_wrapper {
 	text-align: center;
+}
+
+#signature_div {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
