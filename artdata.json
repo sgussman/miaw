@@ -46,9 +46,9 @@
 			"/images/homer/art/pic_03.JPG"
 		],
 		"artist_pic" : [
-						"/images/homer/artist_pic_1.JPG",
-						"/images/homer/artist_pic_2.JPG"
-						],
+			"/images/homer/artist_pic_1.JPG",
+			"/images/homer/artist_pic_2.JPG"
+		],
 		"art_pic" : "/images/mumbatu/art_pic.jpg",
 		"twitter_handle" : "sgussman",
 		"website" : ["."]
@@ -71,7 +71,7 @@
 		"twitter_handle" : "frost_art_2014",
 		"website" : ["."]
 	},
-		{
+	{
 		"title": "Glass Case of Emotion",
 		"artist": ["Hillary Streeter"],
 		"bio": [
@@ -96,7 +96,7 @@
 		"twitter_handle" : "frost_art_2014",
 		"website" : ["."]
 	},
-		{
+	{
 		"title": "A Whale's Tale",
 		"artist": ["Andrea Stein"],
 		"bio": [
@@ -116,7 +116,7 @@
 		"twitter_handle" : "frost_art_2014",
 		"website" : "."
 	},
-		{
+	{
 		"title": "Characters Wanted",
 		"artist": ["Jake Friedler",
 					"Laura Petree"],
@@ -131,71 +131,139 @@
 			"/images/characterswanted/art/pic_1.jpg",
 		],
 		"artist_pic" : [
-						"/images/characterswanted/artist_pic_1.jpg",
-						"/images/characterswanted/artist_pic_2.jpg"
-						],
+			"/images/characterswanted/artist_pic_1.jpg",
+			"/images/characterswanted/artist_pic_2.jpg"
+		],
 		"art_pic" : "/images/characterswanted/art_pic.jpg",
 		"twitter_handle" : "frost_art_2014",
 		"website" : [
-						"http://about.me/jakefrdlr",
-						"."
-					]
-	},
-		{
-		"title": "",
-		"artist": [""],
-		"bio": [
-			""
-		],
-		"about_art" : [
-			""
-		],
-		"photos": [
-			"",
-			"",
-			"",
-			""
-		],
-		"artist_pic" : "",
-		"art_pic" : "",
-		"twitter_handle" : ""
-	},
-		{
-		"title": "",
-		"artist": [""],
-		"bio": [
-			""
-		],
-		"about_art" : [
-			""
-		],
-		"photos": [
-			"",
-			"",
-			"",
-			""
-		],
-		"artist_pic" : "",
-		"art_pic" : "",
-		"twitter_handle" : ""
+			"http://about.me/jakefrdlr",
+			"."
+		]
 	},
 	{
-		"title": "",
-		"artist": [""],
+		"title": "Web of Art",
+		"artist": ["Ana Maria Carrano"],
+		"bio": [
+			"Ana Maria Carrano is a Knight Fellow at Stanford University. She worked as the editor of the Jacobo Borges Museum for three years and covered visual arts for a Venezuela newspaper. She designed scenography for a theater group while she was studying journalism at the Catholic University in Caracas.",
+			"As a journalist, she led several innovation projects. When she worked for Cadena Capriles, she managed the first apps for iOS and Android tablets developed by a Venezuelan newspaper; three mobile apps with journalistic content; and the first collaborative and hyperlocal website in her country. Recently, she co-founded Voyz.es and Venezueladecoded.com. She finds arts the best form of being in contact with the human essence and creativity."
+		],
+		"about_art" : [
+			"Web of Art is an installation that invites the user to have a visual and sensory experience. It explores the relationship between smells, textures and sight.",
+			"The installation is comprised of a copper network woven into branches. Some natural elements with different odors are hanging from the network. Copper connections can be changed by people, allowing them to re-design their experience. Just as in nature, this net is built from variables and random connections.",
+			"Over the soil, there are several cushions made with organic materials. Through touch, people can reconnect with their consciousness of the senses. The installation invites viewers to slow down, contemplate and explore their relationship with the nature: internal and external."
+		],
+		"photos": [
+			"/images/webofart/art/pic_1.jpeg"
+		],
+		"artist_pic" : ["/images/webofart/artist_pic.JPG"],
+		"art_pic" : "/images/webofart/art_pic.jpeg",
+		"twitter_handle" : "anamariacarrano",
+		"website" : ["http://tellmehowareyoufeeling.weebly.com/"]
+	},
+	{
+		"title": "Box of Stars",
+		"artist": ["Cooper Newby"],
 		"bio": [
 			""
 		],
 		"about_art" : [
-			""
+			"Box of Stars is a mind bending, infinite universe confined the volume of a cube.",
+			"We want to experience infinity surrounded by the trance and music of the Frost Festival. With 5 infinity mirrors bound together as the faces of a cube, festival attendees can experience three-dimensional space within two-dimensional frames. Move your hands towards the reflective cube, and watch infinity float further away, bend the tunneling universe and alter your reality, 'there is no spoon'!",
+			"Box of Stars mimics the famous Grateful dead song 'Box of Rain' to commemorate the history of frost amphitheater."
 		],
 		"photos": [
-			"",
-			"",
-			"",
-			""
+			"/images/boxofstars/art/pic_1.jpeg",
+			"/images/boxofstars/art/pic_2.jpg",
+			"/images/boxofstars/art/pic_3.jpeg",
+			"/images/boxofstars/art/pic_4.JPG",
+			"/images/boxofstars/art/pic_5.JPG",
+			"/images/boxofstars/art/pic_6.jpg",
+			"/images/boxofstars/art/pic_7.jpg"
 		],
-		"artist_pic" : "",
-		"art_pic" : "",
-		"twitter_handle" : ""
+		"artist_pic" : ["/images/boxofstars/artist_pic.jpg"],
+		"art_pic" : "/images/boxofstars/art_pic.jpg",
+		"twitter_handle" : "frost_art_2014",
+		"website" : ["http://www.coopernewby.com/"]
+	},
+	{
+		"title": "Sonic Drop",
+		"artist": ["Cooper Newby"],
+		"bio": [
+			"A creative, resourceful, self-directed Mechanical/Audio systems design engineer at Sennheiser's R&D office and Stanford graduate student at CCRMA (Center for Computer Research in Music and Acoustics). Has exceptional iterative prototyping, mechanical design, and acoustics engineering skills. I enjoy the collaborative, creative process of turning disruptively innovative concepts and technologies into graspable prototypes. Looking for a summer internship"
+		],
+		"about_art" : [
+			"Sonic Drop is an interactive and integrated audio-visual sculpture. Comprised of water activated sensors mounted on a suspended, internally lit cube that glows in response to human interaction with the device. Synthesizing visual art with sound, when the water sensors are activated, Sonic Drop generates beautiful music. Sonic Drop will be an art installation at Stanford that invites its viewers to wield water toys to collaboratively create mesh of sound and light."
+		],
+		"photos": [
+			"/images/sonicdrop/art/pic_1.jpg",
+			"/images/sonicdrop/art/pic_2.jpeg",
+			"/images/sonicdrop/art/pic_3.jpg",
+			"/images/sonicdrop/art/pic_4.jpg"
+		],
+		"artist_pic" : ["/images/sonicdrop/artist_pic.jpg"],
+		"art_pic" : "/images/sonicdrop/art_pic.jpg",
+		"twitter_handle" : "frost_art_2014",
+		"website" : ["http://www.coopernewby.com/"]
+	},
+	{
+		"title": "Hanging Gardens",
+		"artist": ["Ian Garcia"],
+		"bio": [
+			"Ian Garcia is a senior at Stanford.  He likes to split his spare time between pampering his pet rabbit (named Thumper), and LARPing."
+		],
+		"about_art" : [
+			"It's Art. What can I say?"
+		],
+		"photos": [
+			"/images/hanginggardens/art/pic_1.jpg"
+		],
+		"artist_pic" : ["/images/hanginggardens/artist_pic.jpg"],
+		"art_pic" : "/images/hanginggardens/art_pic.jpg",
+		"twitter_handle" : "frost_art_2014",
+		"website" : ["."]
+	},
+	{
+		"title": "Tree Fingers",
+		"artist": ["Aaron Thayer"],
+		"bio": [
+			"Aaron can be described as: dedicated, craftsy, educated, curious, deliberate, networked, full, flexible, averse, magnetic, and perplexing."
+		],
+		"about_art" : [
+			"The goal of Tree Fingers is to illicit a feeling of wonderment, a connection to the Earth, a connection to the fairy tales and myths of our past. This project is meant not to be interactive, but to be something that people can play around and under.  If it were bronze, then it would be play-around-able."
+		],
+		"photos": [
+			"/images/treefingers/art/pic_1.jpg",
+			"/images/treefingers/art/pic_2.jpg"
+		],
+		"artist_pic" : ["/images/treefingers/artist_pic.jpg"],
+		"art_pic" : "/images/treefingers/art_pic.jpg",
+		"twitter_handle" : "frost_art_2014",
+		"website" : ["."]
+	},
+	{
+		"title": "Procession",
+		"artist": [
+			"Katya Stavisky",
+			"Neil Hamamoto"
+		],
+		"bio": [
+			"Katya is a junior majoring in product design. She is interested in all things artistic and hand-made. Her work often explores fine craft and the interaction between color and visual geometry.",
+			"Neil is a junior majoring in product design. A native of New Yor City, he has a passion for photography and large-scale projects involving wood. Neil's work has persistent themes of intriguing geometry and repetition."
+			],
+		"about_art" : [
+			"The goal of Procession was to take a chess set off the board and to confront the viewer with the intensity of each chess piece. By making the pieces life sized or larger than life sized, viewers may contemplate how we are all pieces in society. The ubiquity of smaller than man-sized pawns versus the space towering kings and queens calls to mind the few positions of great power in America among the masses."
+			],
+		"photos": [
+			"/images/procession/art/pic_1.jpg",
+			"/images/procession/art/pic_2.jpg"
+		],
+		"artist_pic" : [
+			"/images/procession/artist_pic_1.jpg",
+			"/images/procession/artist_pic_2.jpg"
+		],
+		"art_pic" : "/images/procession/art_pic.jpg",
+		"twitter_handle" : "frost_art_2014",
+		"website" : ["http://katyastavisky.com/"]
 	}
 ]
