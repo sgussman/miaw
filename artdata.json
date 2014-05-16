@@ -23,7 +23,7 @@
 		"artist_pic" : ["images/mumbatu/artist_pic.jpg"],
 		"art_pic" : "images/mumbatu/art_pic.jpg",
 		"twitter_handle" : "sgussman",
-		"website": "http://karecuso.com/index.html"
+		"website": ["http://karecuso.com/index.html"]
 	},
 	{
 		"title": "HOMER",
@@ -41,14 +41,17 @@
 			"Homer is my first attempt at large sculpture, and I hope that participants enjoy it as much as I have enjoyed building it."
 		],
 		"photos": [
-			"/images/mumbatu/art/mumbatu_01.jpg",
-			"/images/mumbatu/art/mumbatu_02.jpg",
-			"/images/mumbatu/art/mumbatu_03.jpg",
-			"/images/mumbatu/art/mumbatu_04.jpg"
+			"/images/homer/art/pic_01.JPG",
+			"/images/homer/art/pic_02.JPG",
+			"/images/homer/art/pic_03.JPG"
 		],
-		"artist_pic" : ["/images/mumbatu/artist_pic.jpg"],
+		"artist_pic" : [
+						"/images/homer/artist_pic_1.JPG",
+						"/images/homer/artist_pic_2.JPG"
+						],
 		"art_pic" : "/images/mumbatu/art_pic.jpg",
-		"twitter_handle" : "sgussman"
+		"twitter_handle" : "sgussman",
+		"website" : ["."]
 	},
 	{
 		"title": "Not-So-Stormy Weather",
@@ -65,7 +68,8 @@
 		],
 		"artist_pic" : "/images/notsostormyweather/artist_pic.jpg",
 		"art_pic" : "/images/notsostormyweather/art_pic.jpg",
-		"twitter_handle" : "frost_art_2014"
+		"twitter_handle" : "frost_art_2014",
+		"website" : ["."]
 	},
 		{
 		"title": "Glass Case of Emotion",
@@ -89,7 +93,8 @@
 		],
 		"artist_pic" : ["/images/glasscaseofemotion/artist_pic.jpg"],
 		"art_pic" : "/images/glasscaseofemotion/art_pic.jpg",
-		"twitter_handle" : "frost_art_2014"
+		"twitter_handle" : "frost_art_2014",
+		"website" : ["."]
 	},
 		{
 		"title": "A Whale's Tale",
@@ -104,31 +109,37 @@
 		"photos": [
 			"/images/awhalestale/art/pic_1.jpg",
 			"/images/awhalestale/art/pic_2.jpg",
-			"/images/awhalestale/art/pic_3.jpg",
-			""
+			"/images/awhalestale/art/pic_3.jpg"
 		],
 		"artist_pic" : ["/images/awhalestale/artist_pic.jpg"],
 		"art_pic" : "/images/awhalestale/art_pic.JPG",
-		"twitter_handle" : "frost_art_2014"
+		"twitter_handle" : "frost_art_2014",
+		"website" : "."
 	},
 		{
-		"title": "",
-		"artist": [""],
+		"title": "Characters Wanted",
+		"artist": ["Jake Friedler",
+					"Laura Petree"],
 		"bio": [
-			""
+			"Jake Friedler grew up in White Suburbia, CA and is still trying to get out. Since coming to Stanford, he has been involved in creating 'Penny's Room,' a performance art piece that brought some of Stanford's psychedelic past to life at Frost in 2013, as well as 'Titus,' an immersive theatre experience that happened at Lake Lagunita in May of the same year. He studies Comparative Literature and spent his last summer backpacking through Japan writing haiku poetry. His interests include longboarding, good conversation, and the re-mystification of our postmodern wasteland. ",
+			"Laura Petree is a junior at Stanford exploring how theatre fits in a world of TV. At Stanford she co-founded The Freeks Theater, a theater group dedicated to producing free, independent, fearless performance on campus. She has directed five shows, acted in two, worked with ReDesigning Theatre, attended countless performances, studied theatre at Oxford, and taken numerous theatre classes. She is studying Comparative Literature, theatre’s unique ability to contain all forms of art, and discovering theatre’s place within the modern world of mediatized brains."
 		],
 		"about_art" : [
-			""
+			"Characters Wanted explores and reevaluates concepts of immersive theatre. Six actors will, over the course of the quarter, develop characters based on Disney characters. Their interpretations of these characters will be realistic and nuanced, set within the context of students from “Disney University” studying abroad at Stanford. They have no script, no plot, and no intended outcome aside from the creation of a total being. Their first major interaction with the public will be at Frost, and they will continue to attend events throughout the course of the following week. The characters’ lives will be affected by their interactions with the public, and in the same way the characters can have a real affect on spectators’ lives too, forming real relationships. This project hopes to revitalize our experiences with other humans, and reevaluate our conception of childhood characters. The characters will also help blur our boundaries between life and art, and connect the rest of the Frost art projects into a total work."
 		],
 		"photos": [
-			"",
-			"",
-			"",
-			""
+			"/images/characterswanted/art/pic_1.jpg",
 		],
-		"artist_pic" : "",
-		"art_pic" : "",
-		"twitter_handle" : ""
+		"artist_pic" : [
+						"/images/characterswanted/artist_pic_1.jpg",
+						"/images/characterswanted/artist_pic_2.jpg"
+						],
+		"art_pic" : "/images/characterswanted/art_pic.jpg",
+		"twitter_handle" : "frost_art_2014",
+		"website" : [
+						"http://about.me/jakefrdlr",
+						"."
+					]
 	},
 		{
 		"title": "",
