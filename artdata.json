@@ -29,7 +29,7 @@
 		"title": "HOMER",
 		"artist": ["Sam Gussman",
 					"Bradford Mills"
-				],
+		],
 		"bio": [
 			"Sam is a sophomore at Stanford. He plans on majoring in Symbolic Systems, although he's been too busy to actually declare. He is interested in Human-Computer Interaction, or in otherwords– using computers to augment innate human intelligence.",
 			"Sam was born in Toano, Virginia the youngest (by 9 years) of four boys.  They lived on a 1,000 acre lake and where they spent their summers building rope-swings, floating docks, and zip-lines.",
@@ -66,7 +66,7 @@
 		"photos": [
 			"/images/notsostormyweather/art/pic_1.jpg"
 		],
-		"artist_pic" : "/images/notsostormyweather/artist_pic.jpg",
+		"artist_pic" : ["/images/notsostormyweather/artist_pic.jpg"],
 		"art_pic" : "/images/notsostormyweather/art_pic.jpg",
 		"twitter_handle" : "frost_art_2014",
 		"website" : ["."]
@@ -114,12 +114,13 @@
 		"artist_pic" : ["/images/awhalestale/artist_pic.jpg"],
 		"art_pic" : "/images/awhalestale/art_pic.JPG",
 		"twitter_handle" : "frost_art_2014",
-		"website" : "."
+		"website" : ["."]
 	},
 	{
 		"title": "Characters Wanted",
 		"artist": ["Jake Friedler",
-					"Laura Petree"],
+					"Laura Petree"
+		],
 		"bio": [
 			"Jake Friedler grew up in White Suburbia, CA and is still trying to get out. Since coming to Stanford, he has been involved in creating 'Penny's Room,' a performance art piece that brought some of Stanford's psychedelic past to life at Frost in 2013, as well as 'Titus,' an immersive theatre experience that happened at Lake Lagunita in May of the same year. He studies Comparative Literature and spent his last summer backpacking through Japan writing haiku poetry. His interests include longboarding, good conversation, and the re-mystification of our postmodern wasteland. ",
 			"Laura Petree is a junior at Stanford exploring how theatre fits in a world of TV. At Stanford she co-founded The Freeks Theater, a theater group dedicated to producing free, independent, fearless performance on campus. She has directed five shows, acted in two, worked with ReDesigning Theatre, attended countless performances, studied theatre at Oxford, and taken numerous theatre classes. She is studying Comparative Literature, theatre’s unique ability to contain all forms of art, and discovering theatre’s place within the modern world of mediatized brains."
@@ -165,7 +166,7 @@
 		"title": "Box of Stars",
 		"artist": ["Cooper Newby"],
 		"bio": [
-			""
+			"A creative, resourceful, self-directed Mechanical/Audio systems design engineer at Sennheiser's R&D office and Stanford graduate student at CCRMA (Center for Computer Research in Music and Acoustics). Has exceptional iterative prototyping, mechanical design, and acoustics engineering skills. I enjoy the collaborative, creative process of turning disruptively innovative concepts and technologies into graspable prototypes. Looking for a summer internship"
 		],
 		"about_art" : [
 			"Box of Stars is a mind bending, infinite universe confined the volume of a cube.",
@@ -250,10 +251,10 @@
 		"bio": [
 			"Katya is a junior majoring in product design. She is interested in all things artistic and hand-made. Her work often explores fine craft and the interaction between color and visual geometry.",
 			"Neil is a junior majoring in product design. A native of New Yor City, he has a passion for photography and large-scale projects involving wood. Neil's work has persistent themes of intriguing geometry and repetition."
-			],
+		],
 		"about_art" : [
 			"The goal of Procession was to take a chess set off the board and to confront the viewer with the intensity of each chess piece. By making the pieces life sized or larger than life sized, viewers may contemplate how we are all pieces in society. The ubiquity of smaller than man-sized pawns versus the space towering kings and queens calls to mind the few positions of great power in America among the masses."
-			],
+		],
 		"photos": [
 			"/images/procession/art/pic_1.jpg",
 			"/images/procession/art/pic_2.jpg"
