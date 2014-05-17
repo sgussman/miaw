@@ -2,6 +2,7 @@
 var models = require('../models.js');
 
 exports.view = function(req, res){
+	console.log(models.Art.find());
 	var title = req.params.title;
 	console.log("Opening Home Page.");
 	models.Art.find({"title" : title})

@@ -11,10 +11,10 @@
 <body>
 	<div class="info_panel" id="artist_info_panel">
 		{{#each artist}}
-			<img src="{{artist_pi[@index]}}" alt="Mumbatu" class="profile_pic">
+			<img src="{{artist_pic}}" alt="Mumbatu" class="profile_pic">
 			<div class="artist_link_div">
-				<p class="title" id="artist_name_big">{{this}}</p>
-				<a href="{{website[@index]}}"><span class="invisible_mask"></span></a>
+				<p class="title" id="artist_name_big">{{name}}</p>
+				<a href="{{website}}"><span class="invisible_mask"></span></a>
 			</div>
 		{{/each}}
 	</div>
