@@ -65,22 +65,6 @@ img {
 }
 
 /************ Launch **************/
-
-#test0 {
-}
-
-#test1 {
-	font-size: 100%;
-}
-
-#test2 {
-	font-size: 300%;
-}
-
-.large-text .title {
-	font-size: x-large;
-}
-
 .col_1 {
 	position: absolute;
 	left: 0;
@@ -130,7 +114,7 @@ img {
 	font-weight: 900;
 	font-family: 'Lato', sans-serif;
 	color: #fff;
-	margin-top: 0px;
+	margin-top: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
