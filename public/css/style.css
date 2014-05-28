@@ -67,11 +67,10 @@ img {
 /************ Launch **************/
 
 #test0 {
-	font-size: xx-large;
 }
 
 #test1 {
-	font-size: larger;
+	font-size: 100%;
 }
 
 #test2 {
@@ -120,7 +119,7 @@ img {
 }
 
 #gallery_launch_title {
-	font-size: 32px;
+	font-size: 98%;
 }
 /************ END Launch **************/
 /*********** Art/Artist/clas ***********/
