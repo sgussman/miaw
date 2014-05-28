@@ -117,10 +117,6 @@ img {
 #class_launch {
 	background-color: #f5c700;
 }
-
-#gallery_launch_title {
-	font-size: 98%;
-}
 /************ END Launch **************/
 /*********** Art/Artist/clas ***********/
 
@@ -135,6 +131,11 @@ img {
 	font-weight: 900;
 	font-family: 'Lato', sans-serif;
 	color: #fff;
+}
+
+.content_text {
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .info_panel{
