@@ -46,7 +46,6 @@ img {
 	text-transform: uppercase;
 	font-weight: 900;
 	font-family: 'Lato', sans-serif;
-	font-size: xx-large;
 }
 
 
@@ -66,6 +65,18 @@ img {
 }
 
 /************ Launch **************/
+
+#test0 {
+	font-size: xx-large;
+}
+
+#test1 {
+	font-size: larger;
+}
+
+#test2 {
+	font-size: 300%;
+}
 
 .large-text .title {
 	font-size: x-large;
