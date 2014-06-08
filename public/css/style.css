@@ -224,6 +224,10 @@ h1 {
 	padding-bottom: 3px;
 	padding-top: 3px;
 }
+
+#navbar {
+	border-top: 3px solid white;
+}
 /*********** END Navbar **************/
 /*********** Twitter ***********/
 
