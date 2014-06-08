@@ -221,8 +221,8 @@ h1 {
 
 .small-text .title {
 	font-size: 80%;
-/*	padding-bottom: 3px;
-	padding-top: 3px;*/
+	padding-bottom: 3px;
+	padding-top: 3px;
 }
 .small-text{
 	text-align: center;
