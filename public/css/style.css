@@ -188,7 +188,7 @@ h1 {
 	left: 0;
 	right: 75%;
 	background-color: #1ab2e8;
-	/*border-top: 3px solid white;*/
+	border-top: 3px solid white;
 }
 
 .nav_col_2 {
@@ -197,7 +197,7 @@ h1 {
 	left: 25%;
 	right: 50%;
 	background-color: #f5c700;
-	/*border-top: 3px solid white;*/
+	border-top: 3px solid white;
 }
 
 .nav_col_3 {
@@ -206,7 +206,7 @@ h1 {
 	left: 50%;
 	right: 25%;
 	background-color: #0eba9e;
-	/*border-top: 3px solid white;*/
+	border-top: 3px solid white;
 }
 
 .nav_col_4 {
@@ -215,7 +215,7 @@ h1 {
 	left: 75%;
 	right: 0;
 	background-color: #ef4836;
-	/*border-top: 3px solid white;*/
+	border-top: 3px solid white;
 }
 
 .small-text .title {
