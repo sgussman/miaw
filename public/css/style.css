@@ -160,6 +160,11 @@ h1 {
 	font-size: 20px;
 	text-transform: none;
 	margin-left: 0px;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 
 /*for the clickable link of the artist page.*/
