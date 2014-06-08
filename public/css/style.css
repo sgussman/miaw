@@ -150,10 +150,8 @@ h1 {
 	text-transform: none;
 }
 
-.artist_name {
-	font-size: 15px;
+#artist_name {
 	text-transform: none;
-	
 }
 
 .artist_name_big {
