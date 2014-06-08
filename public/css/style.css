@@ -31,7 +31,8 @@ h1 small {
 }
 
 h1 {
-	vertical-align: middle;
+	margin-top: 20%;
+	margin-bottom: 20%;
 }
 
 /*********** Globals *********/
