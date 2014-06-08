@@ -221,6 +221,8 @@ h1 {
 
 .small-text .title {
 	font-size: 80%;
+}
+.small-text{
 	text-align: center;
 }
 /*********** END Navbar **************/
