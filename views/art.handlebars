@@ -13,8 +13,8 @@
 		<a href="./gallery"><img src="{{art_pic}}" alt="{{title}}" class="profile_pic"></a>
 		<h4 class="title" id="art_name">{{title}}</h4>
 		<div class="artist_link_div">
-			<p class="title" id="artist_name">By: {{#each artist}}
-				{{name}} <br/>
+			<p class="title text-right" id="artist_name">{{#each artist}}
+				{{name}}<br/>
 				{{/each}}</p>
 			<a href="/{{title}}/artist"><span class="invisible_mask"></span></a>
 		</div>

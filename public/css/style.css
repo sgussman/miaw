@@ -147,13 +147,13 @@ h1 {
 }
 
 #art_name {
-	/*font-size: 18px;*/
 	text-transform: none;
 }
 
 .artist_name {
 	font-size: 15px;
 	text-transform: none;
+	
 }
 
 .artist_name_big {
