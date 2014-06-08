@@ -24,6 +24,12 @@ img {
 	margin-bottom: 3px;
 }
 
+small {
+	color: inherit;
+	font-weight: inherit;
+	font-size: 90%;
+}
+
 /*********** Globals *********/
 
 .top {
