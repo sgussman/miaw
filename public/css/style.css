@@ -152,6 +152,7 @@ h1 {
 
 #artist_name {
 	text-transform: none;
+	margin-left: 0px;
 }
 
 .artist_name_big {
