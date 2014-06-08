@@ -9,7 +9,7 @@ div {
 }
 
 p {
-	text-align: center;
+	text-align: justify;
 	padding-top: 3px;
 	padding-bottom: 3px;
 	margin-bottom: 5px;
@@ -217,16 +217,10 @@ h1 {
 
 .small-text .title {
 	/*font-size: x-small;*/
+	text-align: center;
 }
 /*********** END Navbar **************/
 /*********** Twitter ***********/
-
-/*#twitter_header {
-	font-family: 'Lato', sans-serif;
-	font-weight: 900;
-	color: #1ab2e8;
-	font-size: 30px;
-}*/
 
 #twitter_button_wrapper {
 	text-align: center;
