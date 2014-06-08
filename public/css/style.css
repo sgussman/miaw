@@ -32,21 +32,6 @@ h1 small {
 
 /*********** Globals *********/
 
-.top {
-	width: 100%;
-	height: 65%;
-}
-
-.bottom {
-	width: 100%;
-	height: 50%;
-}
-
-.right {
-	float: right;
-}
-
-
 .title {
 	color: #fff;
 	text-transform: uppercase;
@@ -85,12 +70,12 @@ h1 small {
 
 .row_1 {
 	top: 0;
-	bottom: 50%;
+	bottom: 55%;
 }
 
 .row_2 {
-	top: 50%;
-	bottom: 5%;
+	top: 55%;
+	bottom: 10%;
 }
 #art_launch {
 	background-color: #0eba9e;
