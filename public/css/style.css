@@ -30,10 +30,10 @@ h1 small {
 	font-size: 90%;
 }
 
-/*h1 {
-	margin-left: 0px;
+h1 {
+	vertical-align: middle;
 }
-*/
+
 /*********** Globals *********/
 
 .title {
