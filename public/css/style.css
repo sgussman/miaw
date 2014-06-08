@@ -30,6 +30,10 @@ h1 small {
 	font-size: 90%;
 }
 
+h1 {
+	margin-left: 5px;
+}
+
 /*********** Globals *********/
 
 .title {
@@ -52,7 +56,7 @@ h1 small {
 
   /* edit: fixes overlap error in IE7/8, 
      make sure you have an empty gif */
-  background-image: url('./images/empty.gif');
+  background-image: url('/images/empty.gif');
 }
 
 /************ Launch **************/
