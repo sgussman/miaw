@@ -202,7 +202,7 @@ h1 {
 
 .nav_col_3 {
 	position: fixed;
-	top: 88%;
+	/*top: 88%;*/
 	bottom: -10;
 	left: 50%;
 	right: 25%;
@@ -211,8 +211,8 @@ h1 {
 
 .nav_col_4 {
 	position: fixed;
-	top: 88%;
-	bottom: -10;
+	/*top: 88%;*/
+	bottom: 0;
 	left: 75%;
 	right: 0;
 	background-color: #ef4836;
