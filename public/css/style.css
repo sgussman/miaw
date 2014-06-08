@@ -193,7 +193,7 @@ h1 {
 
 .nav_col_2 {
 	position: fixed;
-	top: 90%;
+	top: 85%;
 	bottom: -10;
 	left: 25%;
 	right: 50%;
@@ -202,7 +202,7 @@ h1 {
 
 .nav_col_3 {
 	position: fixed;
-	top: 90%;
+	top: 80%;
 	bottom: -10;
 	left: 50%;
 	right: 25%;
@@ -211,7 +211,7 @@ h1 {
 
 .nav_col_4 {
 	position: fixed;
-	top: 90%;
+	top: 75%;
 	bottom: -10;
 	left: 75%;
 	right: 0;
