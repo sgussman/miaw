@@ -151,12 +151,12 @@ h1 {
 	text-transform: none;
 }
 
-#artist_name {
+.artist_name {
 	font-size: 15px;
 	text-transform: none;
 }
 
-#artist_name_big {
+.artist_name_big {
 	font-size: 20px;
 	text-transform: none;
 	margin-left: 0px;
