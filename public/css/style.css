@@ -152,14 +152,10 @@ h1 {
 
 #artist_name {
 	text-transform: none;
-	/*margin-left: 0px;*/
 }
 
 .artist_name_big {
 	text-transform: none;
-/*	margin-left: 0px;
-	text-align: left;
-	padding-left: 0px;*/
 }
 
 /*for the clickable link of the artist page.*/
@@ -218,7 +214,8 @@ h1 {
 }
 
 .small-text .title {
-	font-size: 80%;
+	margin-top: 2px;
+	margin-bottom: 2px;
 	padding-bottom: 3px;
 	padding-top: 3px;
 }
