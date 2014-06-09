@@ -124,6 +124,10 @@ h1 {
 	margin-right: 10px;
 }
 
+.art_text {
+	text-align: left;
+	margin-left: 5px;
+}
 .info_panel{
 	padding: 10px;
 	border: 10px solid white;
