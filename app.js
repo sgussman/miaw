@@ -3,7 +3,7 @@
  */
 
 var express = require('express');
-var http = require('http');
+var http = require('http');		
 var path = require('path');
 var handlebars = require('express3-handlebars');
 var mongoose = require('mongoose');
@@ -25,19 +25,19 @@ mongoose.connect(database_uri);
 var app = express();
 
 // all environments
-app.set('port', process.env.PORT || 3000);
-app.set('views', path.join(__dirname, 'views'));
-app.engine('handlebars', handlebars());
-app.set('view engine', 'handlebars');
-app.use(express.favicon());
-app.use(express.logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded());
-app.use(express.methodOverride());
-app.use(express.cookieParser('Intro HCI secret key'));
-app.use(express.session());
-app.use(app.router);
-app.use(express.static(path.join(__dirname, 'public')));
+app.set('port', process.env.PORT || 3000);			//set port
+app.set('views', path.join(__dirname, 'views'));	//set view directory path
+app.engine('handlebars', handlebars());				//sets the template engine
+app.set('view engine', 'handlebars');				//sets default template engine
+app.use(express.favicon());							//sets favicon
+app.use(express.logger('dev'));						//sets log format to dev
+app.use(express.json());							//sets parse for application/json reqs
+app.use(express.urlencoded());						//parses URL encoded reqs
+app.use(express.methodOverride());					//allows use of "GET" and "PUT"
+app.use(express.cookieParser('Sam'));				//sets secret cookie signiture
+app.use(express.session());							//setup sessions
+app.use(app.router);								//sets the router to route my pages
+app.use(express.static(path.join(__dirname, 'public')));	//set up directory for static resources
 
 // development only
 if ('development' == app.get('env')) {
